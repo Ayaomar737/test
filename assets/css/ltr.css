@@ -147,8 +147,8 @@ body {
     padding: 50px 0;
 }
 
-.count-border {
-    border-left: 1px dashed white;
+.count .row>div:not(:last-child) {
+    border-right: 1px dashed white;
     border-radius: 0;
 }
 

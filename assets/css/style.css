@@ -147,10 +147,11 @@ body {
     padding: 50px 0;
 }
 
-.count-border {
+.count .row>div:not(:last-child) {
     border-left: 1px dashed white;
     border-radius: 0;
 }
+
 
 .count .image-icon img {
     height: 90px;
@@ -469,7 +470,7 @@ body {
 .testimonial .card-testimonial {
     background-image: url(../images/shape-testimonial.png);
     background-size: 100% 100%;
-        background-repeat: no-repeat;
+    background-repeat: no-repeat;
     background-position: center;
     padding: 100px 70px;
     margin-top: 40px;
