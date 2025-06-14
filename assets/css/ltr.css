@@ -11,6 +11,17 @@ body {
     --secondary-color: #C49A6C;
     --black-color: #212529
 }
+.container-fluid{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+@media screen and (max-width: 768px) {
+   .container-fluid{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+}
 
 /* start scroll to top */
 .scroll-top {
