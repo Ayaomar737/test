@@ -127,9 +127,25 @@ body {
     margin-bottom: 20px;
 }
 
+.about-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.about-list li{
+    display: flex; 
+    margin-bottom: 25px;
+}
+.about-list .icon-about {
+    margin-left: 20px;
+}
+.about-list p{
+    line-height: 2;
+}
+
 .about-image img {
-    width: 70%;
-    height: 550px;
+    width: 100%;
+    height: 500px;
 }
 
 @media screen and (max-width: 768px) {
