@@ -64,7 +64,7 @@ $(function () {
                 items: 1
             },
             728: {
-                items: 1
+                items: 2
             },
             1200: {
                 items: 2

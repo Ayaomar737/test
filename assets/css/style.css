@@ -87,6 +87,10 @@ body {
     color: var(--secondary-color);
 }
 
+.navbar-toggler{
+    padding: 3px 8px;
+}
+
 /* section video */
 
 .video-banner video {
@@ -179,6 +183,13 @@ body {
 .count .row>div:not(:last-child) {
     border-left: 1px dashed white;
     border-radius: 0;
+}
+
+@media screen and (max-width: 768px) {
+   .count .row>div:not(:last-child) {
+    border-left: none;
+}
+
 }
 
 
@@ -408,6 +419,13 @@ body {
     position: relative;
     overflow: hidden;
     margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+ .card-project {
+    height: 300px;
+}
+
 }
 
 .card-project.image1 {

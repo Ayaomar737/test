@@ -179,6 +179,13 @@ body {
     border-radius: 0;
 }
 
+@media screen and (max-width: 768px) {
+   .count .row>div:not(:last-child) {
+    border-right: none;
+}
+
+}
+
 .count .image-icon img {
     height: 90px;
 }
@@ -405,6 +412,13 @@ body {
     position: relative;
     overflow: hidden;
     margin: 20px;
+}
+
+@media screen and (max-width: 768px) {
+ .card-project {
+    height: 300px;
+}
+
 }
 
 .card-project.image1 {
