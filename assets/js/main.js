@@ -110,7 +110,7 @@ $(function () {
         dots: true,
         responsive: {
             0: {
-                items: 3
+                items: 2
             },
             485: {
                 items: 5
